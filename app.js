@@ -1,6 +1,6 @@
 const NEWS_URL = "data/news.json";
 let allNews = [];
-const CAT_ICONS = { "AI": "🧠", "区块链": "⛓", "黄金": "🥇", "机器人": "🤖", "地缘": "🌍", "美债": "🏦", "科技股": "📊" };
+const CAT_ICONS = { "AI": "🧠", "区块链": "⛓", "黄金": "🥇", "地缘": "🌍" };
 
 async function loadNews() {
   const container = document.getElementById("newsContainer");
