@@ -65,6 +65,18 @@ CATEGORIES = {
         "semiconductor", "chip", "big tech", "magnificent seven", "mag7",
         "科技股", "半导体", "芯片", "纳斯达克", "纳指", "美股",
     ],
+    "地缘": [
+        "geopolitics", "geopolitical", "war", "conflict", "sanctions",
+        "military", "defense", "oil price", "crude", "supply chain",
+        "tariff", "trade war", "中东", "俄罗斯", "乌克兰",
+        "地缘", "战争", "冲突", "制裁", "军事", "国防", "油价",
+        "通胀", "供应链", "关税", "贸易战", "原油",
+    ],
+    "美债": [
+        "treasury yield", "bond yield", "10-year yield", "fed rate",
+        "interest rate", "federal reserve", "yield curve", "fed",
+        "国债", "收益率", "美债", "美联储", "加息", "降息", "利率",
+    ],
 }
 
 ALL_KEYWORDS = [kw for kws in CATEGORIES.values() for kw in kws]

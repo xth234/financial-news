@@ -18,7 +18,7 @@ async function loadNews() {
   }
 }
 
-const CAT_ICONS = { "AI": "🧠", "区块链": "⛓", "黄金": "🥇", "机器人": "🤖", "科技股": "📊" };
+const CAT_ICONS = { "AI": "🧠", "区块链": "⛓", "黄金": "🥇", "机器人": "🤖", "地缘": "🌍", "美债": "🏦", "科技股": "📊" };
 
 function render(news) {
   const container = document.getElementById("newsContainer");
