@@ -194,6 +194,47 @@ main {
   overflow: hidden;
 }
 
+.article-full {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.article-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  line-height: 1.5;
+  color: #f1f5f9;
+}
+
+.article-content {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #cbd5e1;
+}
+
+.article-content p {
+  margin-bottom: 0.8rem;
+}
+
+.article-origin {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #334155;
+}
+
+.article-origin a {
+  color: #facc15;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.article-origin a:hover {
+  text-decoration: underline;
+}
+
 footer {
   text-align: center;
   padding: 1.5rem 1rem;

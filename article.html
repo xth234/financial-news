@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>文章 - 每日财经新闻</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📈 每日财经新闻</h1>
+    <p class="subtitle"><a href="index.html" style="color:#94a3b8;">← 返回首页</a></p>
+  </header>
+  <main id="articleContainer">
+    <div class="loading">加载中...</div>
+  </main>
+  <footer>
+    <p>数据来源：BBC · CNBC · Reuters · 华尔街日报 · 东方财富 · 虎嗅</p>
+  </footer>
+  <script>
+    const NEWS_URL = "data/news.json";
+
+    async function loadArticle() {
+      const id = new URLSearchParams(location.search).get("id");
+      const container = document.getElementById("articleContainer");
+      if (!id) { container.innerHTML = '<div class="loading">缺少文章ID</div>'; return; }
+
+      try {
+        const res = await fetch(NEWS_URL + "?t=" + Date.now());
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        const news = await res.json();
+        const item = news.find((n) => n.id === id);
+        if (!item) { container.innerHTML = '<div class="loading">文章不存在</div>'; return; }
+
+        const catTags = (item.categories || [])
+          .map((c) => `<span class="cat-tag">${c}</span>`).join("");
+
+        document.title = item.title + " - \u6bcf\u65e5\u8d22\u7ecf\u65b0\u95fb";
+
+        container.innerHTML = `
+          <article class="article-full">
+            <div class="meta">
+              <span class="source-badge lang-${item.lang}">${item.source}</span>
+              <span class="time">${new Date(item.published).toLocaleString("zh-CN")}</span>
+              <div class="cat-tags" style="display:inline-flex;margin-left:0.6rem;">${catTags}</div>
+            </div>
+            <h1 class="article-title">${item.title}</h1>
+            <div class="article-content">${item.content || ""}</div>
+            <p class="article-origin">
+              <a href="${item.link}" target="_blank" rel="noopener">查看原文 →</a>
+            </p>
+          </article>`;
+      } catch (e) {
+        container.innerHTML = '<div class="loading">\u52a0\u8f7d\u5931\u8d25\uff1a' + e.message + '</div>';
+      }
+    }
+
+    loadArticle();
+  </script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 const NEWS_URL = "data/news.json";
 let allNews = [];
+const CAT_ICONS = { "AI": "🧠", "区块链": "⛓", "黄金": "🥇", "机器人": "🤖", "地缘": "🌍", "美债": "🏦", "科技股": "📊" };
 
 async function loadNews() {
   const container = document.getElementById("newsContainer");
@@ -13,12 +14,11 @@ async function loadNews() {
       document.getElementById("updateTime").textContent =
         new Date(times[0]).toLocaleString("zh-CN");
     }
+    document.getElementById("totalCount").textContent = allNews.length;
   } catch (e) {
     container.innerHTML = `<div class="loading">\u52a0\u8f7d\u5931\u8d25\uff1a${e.message}</div>`;
   }
 }
-
-const CAT_ICONS = { "AI": "🧠", "区块链": "⛓", "黄金": "🥇", "机器人": "🤖", "地缘": "🌍", "美债": "🏦", "科技股": "📊" };
 
 function render(news) {
   const container = document.getElementById("newsContainer");
@@ -27,23 +27,22 @@ function render(news) {
     return;
   }
   container.innerHTML = news
-    .map(
-      (item) => {
-        const catTags = (item.categories || [])
-          .map((c) => `<span class="cat-tag">${CAT_ICONS[c] || ""} ${c}</span>`)
-          .join("");
-        return `
+    .map((item) => {
+      const catTags = (item.categories || [])
+        .map((c) => `<span class="cat-tag">${CAT_ICONS[c] || ""} ${c}</span>`)
+        .join("");
+      const snippet = (item.content || item.summary || "").replace(/<[^>]+>/g, "").slice(0, 150);
+      return `
     <article class="news-card">
       <div class="meta">
         <span class="source-badge lang-${item.lang}">${item.source}</span>
         <span class="time">${new Date(item.published).toLocaleString("zh-CN")}</span>
       </div>
-      <h2><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h2>
-      <div class="summary">${item.summary || ""}</div>
+      <h2><a href="article.html?id=${item.id}">${item.title}</a></h2>
+      <div class="summary">${snippet}...</div>
       <div class="cat-tags">${catTags}</div>
     </article>`;
-      }
-    )
+    })
     .join("");
 }
 
@@ -58,7 +57,7 @@ function filter() {
     filtered = filtered.filter(
       (n) =>
         n.title.toLowerCase().includes(keyword) ||
-        n.summary.toLowerCase().includes(keyword)
+        (n.content || "").toLowerCase().includes(keyword)
     );
   }
   render(filtered);
@@ -83,4 +82,4 @@ document.querySelectorAll("#catTabs .tab").forEach((btn) => {
 document.getElementById("searchBox").addEventListener("input", filter);
 
 loadNews();
-setInterval(loadNews, 60000);  // 每分钟自动刷新
+setInterval(loadNews, 60000);
