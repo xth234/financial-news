@@ -18,6 +18,8 @@ async function loadNews() {
   }
 }
 
+const CAT_ICONS = { "AI": "🧠", "区块链": "⛓", "黄金": "🥇", "机器人": "🤖", "科技股": "📊" };
+
 function render(news) {
   const container = document.getElementById("newsContainer");
   if (!news.length) {
@@ -26,7 +28,11 @@ function render(news) {
   }
   container.innerHTML = news
     .map(
-      (item) => `
+      (item) => {
+        const catTags = (item.categories || [])
+          .map((c) => `<span class="cat-tag">${CAT_ICONS[c] || ""} ${c}</span>`)
+          .join("");
+        return `
     <article class="news-card">
       <div class="meta">
         <span class="source-badge lang-${item.lang}">${item.source}</span>
@@ -34,18 +40,20 @@ function render(news) {
       </div>
       <h2><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h2>
       <div class="summary">${item.summary || ""}</div>
-    </article>`
+      <div class="cat-tags">${catTags}</div>
+    </article>`;
+      }
     )
     .join("");
 }
 
 function filter() {
-  const lang = document.querySelector(".tab.active").dataset.lang;
+  const lang = (document.querySelector("#langTabs .active") || {}).dataset?.lang || "all";
+  const cat = (document.querySelector("#catTabs .active") || {}).dataset?.cat || "all";
   const keyword = document.getElementById("searchBox").value.trim().toLowerCase();
   let filtered = allNews;
-  if (lang !== "all") {
-    filtered = filtered.filter((n) => n.lang === lang);
-  }
+  if (lang !== "all") filtered = filtered.filter((n) => n.lang === lang);
+  if (cat !== "all") filtered = filtered.filter((n) => (n.categories || []).includes(cat));
   if (keyword) {
     filtered = filtered.filter(
       (n) =>
@@ -56,9 +64,17 @@ function filter() {
   render(filtered);
 }
 
-document.querySelectorAll(".tab").forEach((btn) => {
+document.querySelectorAll("#langTabs .tab").forEach((btn) => {
   btn.addEventListener("click", () => {
-    document.querySelectorAll(".tab").forEach((b) => b.classList.remove("active"));
+    document.querySelectorAll("#langTabs .tab").forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
+    filter();
+  });
+});
+
+document.querySelectorAll("#catTabs .tab").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll("#catTabs .tab").forEach((b) => b.classList.remove("active"));
     btn.classList.add("active");
     filter();
   });
@@ -67,3 +83,4 @@ document.querySelectorAll(".tab").forEach((btn) => {
 document.getElementById("searchBox").addEventListener("input", filter);
 
 loadNews();
+setInterval(loadNews, 60000);  // 每分钟自动刷新
