@@ -7,12 +7,14 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
+from html import unescape
 
 RSS_SOURCES = [
     {"name": "BBC Business", "url": "https://feeds.bbci.co.uk/news/business/rss.xml", "lang": "en"},
     {"name": "CNBC Top News", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114", "lang": "en"},
     {"name": "东方财富", "url": "https://finance.eastmoney.com/rss/soft/7_88888888.xml", "lang": "zh"},
     {"name": "虎嗅", "url": "https://www.huxiu.com/rss/0.xml", "lang": "zh"},
+    {"name": "律动BlockBeats", "url": "https://api.theblockbeats.news/v2/rss/all", "lang": "zh"},
 ]
 
 CATEGORIES = {
@@ -39,22 +41,26 @@ def translate_en_to_zh(text):
     except:
         return text
 
-def extract_article(url, timeout=12):
+def extract_article(url, timeout=15):
     try:
-        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        }
         resp = requests.get(url, headers=headers, timeout=timeout)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "lxml")
 
-        for tag in soup(["script", "style", "nav", "header", "footer", "aside", "noscript"]):
+        for tag in soup(["script", "style", "nav", "header", "footer", "aside", "noscript", "form", "button", "svg", "iframe"]):
             tag.decompose()
 
         img_html = ""
         for meta in soup.find_all("meta"):
-            prop = (meta.get("property") or "").lower()
+            prop = (meta.get("property") or meta.get("name") or "").lower()
             if prop in ("og:image", "twitter:image"):
                 src = meta.get("content", "")
-                if src:
+                if src and not src.startswith("data:"):
                     img_html = f'<div class="article-image"><img src="{src}" style="max-width:100%;border-radius:8px;margin-bottom:1rem;" /></div>'
                     break
         if not img_html:
@@ -62,30 +68,56 @@ def extract_article(url, timeout=12):
             if img and img.get("src") and not img["src"].startswith("data:"):
                 img_html = f'<div class="article-image"><img src="{img["src"]}" style="max-width:100%;border-radius:8px;margin-bottom:1rem;" /></div>'
 
-        for selector in ["article", "[role=main]", "main", ".article-body", ".story-body", ".post-content", "#article-content"]:
-            container = soup.select_one(selector)
+        selectors = ["article", "[role=main]", "main", ".article-body", ".story-body", ".post-content", "#article-content", ".content", ".article", "#story-body", ".story-body__inner", ".article__body", ".article-content", ".entry-content", ".post-body"]
+        container = None
+        for sel in selectors:
+            container = soup.select_one(sel)
             if container:
-                soup = container
                 break
 
-        paragraphs = []
-        for p in soup.find_all(["p", "h2", "h3", "li"]):
-            text = p.get_text(strip=True)
-            if len(text) > 30:
-                tag = p.name
-                if tag.startswith("h"):
-                    paragraphs.append(f"<{tag}>{text}</{tag}>")
-                elif tag == "li":
-                    paragraphs.append(f"<p>• {text}</p>")
-                else:
-                    paragraphs.append(f"<p>{text}</p>")
+        if not container:
+            ps = soup.find_all("p")
+            body = "".join(str(p) for p in ps if len(p.get_text(strip=True)) > 30)
+            return img_html + body if body else None
 
-        content = "\n".join(paragraphs[:50])
+        for tag in container(["script", "style", "nav", "header", "footer", "aside", "noscript", "button", "svg"]):
+            tag.decompose()
+
+        parts = []
+        for el in container.children:
+            if el.name in ("p", "h2", "h3", "h4", "li", "blockquote", "ul", "ol", "img", "figure", "div"):
+                text = el.get_text(strip=True) if el.name != "img" else ""
+                if el.name == "img" and el.get("src"):
+                    parts.append(f'<p><img src="{el["src"]}" style="max-width:100%;border-radius:8px;" /></p>')
+                elif el.name in ("h2", "h3", "h4"):
+                    if len(text) > 5:
+                        parts.append(f"<{el.name}>{text}</{el.name}>")
+                elif el.name == "blockquote" and len(text) > 10:
+                    parts.append(f"<blockquote style='border-left:3px solid #facc15;padding-left:1rem;margin:0.5rem 0;color:#94a3b8;'>{text}</blockquote>")
+                elif el.name in ("ul", "ol"):
+                    lis = []
+                    for li in el.find_all("li", recursive=False):
+                        t = li.get_text(strip=True)
+                        if len(t) > 10:
+                            lis.append(f"<li>{t}</li>")
+                    if lis:
+                        parts.append(f"<{el.name}>{''.join(lis)}</{el.name}>")
+                elif el.name == "p" and len(text) > 20:
+                    parts.append(f"<p>{text}</p>")
+                elif el.name == "div" and el.get("class"):
+                    t = el.get_text(strip=True)
+                    if len(t) > 50:
+                        parts.append(f"<p>{t}</p>")
+
+        content = "\n".join(parts[:60])
         if not content:
-            text = soup.get_text(separator=" ", strip=True)
-            content = f"<p>{text[:3000]}</p>"
-        return img_html + content
-    except:
+            ps = soup.find_all("p")
+            body = "".join(f"<p>{p.get_text(strip=True)}</p>" for p in ps if len(p.get_text(strip=True)) > 30)
+            content = body
+        content = unescape(content)
+        return (img_html + content) if content else None
+    except Exception as e:
+        print(f"  Scrape failed: {type(e).__name__}")
         return None
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -99,7 +131,7 @@ def fetch_rss(source, existing_ids):
         print(f"  {len(entries)} new from {source['name']}")
         for i, entry in enumerate(entries):
             title = entry.get("title", "")
-            summary = (entry.get("summary") or "")[:300]
+            summary = entry.get("summary", "")[:300]
             if not classify(title + " " + summary):
                 continue
 
@@ -111,11 +143,11 @@ def fetch_rss(source, existing_ids):
             elif hasattr(entry, "description") and entry.description:
                 rss_content = entry.description
 
-            if len(rss_content) > 200:
+            if len(rss_content) > 500:
                 content = rss_content
             else:
                 scraped = extract_article(entry.link)
-                content = scraped if scraped and len(scraped) > 100 else rss_content or summary
+                content = scraped if scraped else (rss_content if len(rss_content) > 100 else summary)
 
             if source["lang"] == "en":
                 content = translate_en_to_zh(content)
@@ -137,7 +169,7 @@ def fetch_rss(source, existing_ids):
                 "source": source["name"],
                 "categories": [classify(title + " " + summary)],
             })
-            time.sleep(1)
+            time.sleep(1.5)
     except Exception as e:
         print(f"  Error: {e}")
     return items
