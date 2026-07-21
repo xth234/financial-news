@@ -87,7 +87,7 @@ def translate_en_to_zh(text):
         return text
     try:
         from deep_translator import GoogleTranslator
-        return GoogleTranslator(source="en", target="zh-CN").translate(text[:5000])
+        return GoogleTranslator(source="en", target="zh-CN").translate(text[:3000])
     except Exception as e:
         print(f"Translation failed: {e}")
         return text
@@ -147,6 +147,10 @@ def main():
         all_news.extend(fetch_rss(source))
 
     print(f"Filtered to {len(all_news)} relevant items")
+
+    if len(all_news) == 0 and NEWS_FILE.exists():
+        print("No items fetched, keeping previous data")
+        return
 
     all_news.sort(key=lambda x: x["published"], reverse=True)
 
