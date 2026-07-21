@@ -6,17 +6,11 @@ import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import requests
-
-try:
-    from trafilatura import extract, bare_extraction
-except ImportError:
-    extract = None
+from bs4 import BeautifulSoup
 
 RSS_SOURCES = [
     {"name": "BBC Business", "url": "https://feeds.bbci.co.uk/news/business/rss.xml", "lang": "en"},
     {"name": "CNBC Top News", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114", "lang": "en"},
-    {"name": "Reuters Business", "url": "https://www.reutersagency.com/feed/?best-topics=business-finance", "lang": "en"},
-    {"name": "华尔街日报", "url": "https://feeds.a.dj.com/rss/RSSWSJD.xml", "lang": "en"},
     {"name": "东方财富", "url": "https://finance.eastmoney.com/rss/soft/7_88888888.xml", "lang": "zh"},
     {"name": "虎嗅", "url": "https://www.huxiu.com/rss/0.xml", "lang": "zh"},
 ]
@@ -30,8 +24,6 @@ CATEGORIES = {
     "地缘": ["geopolitics", "geopolitical", "war", "conflict", "sanctions", "military", "defense", "oil price", "crude", "supply chain", "tariff", "trade war", "中东", "俄罗斯", "乌克兰", "地缘", "战争", "冲突", "制裁", "军事", "国防", "油价", "通胀", "供应链", "关税", "贸易战", "原油"],
     "美债": ["treasury yield", "bond yield", "10-year yield", "fed rate", "interest rate", "federal reserve", "yield curve", "fed", "国债", "收益率", "美债", "美联储", "加息", "降息", "利率"],
 }
-
-ALL_KEYWORDS = [kw for kws in CATEGORIES.values() for kw in kws]
 
 def classify(text):
     lower = text.lower()
@@ -47,25 +39,33 @@ def translate_en_to_zh(text):
     try:
         from deep_translator import GoogleTranslator
         return GoogleTranslator(source="en", target="zh-CN").translate(text[:5000])
-    except Exception as e:
-        print(f"  Translation failed: {e}")
+    except:
         return text
 
-def fetch_full_article(url, timeout=15):
+def extract_article(url, timeout=12):
     try:
         headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
         resp = requests.get(url, headers=headers, timeout=timeout)
         resp.raise_for_status()
-        result = bare_extraction(resp.text, output_format="html", with_metadata=True, include_images=True, favor_precision=True)
-        if result and result.get("content"):
-            text_content = result["content"]
-            images_html = ""
-            if result.get("image"):
-                images_html = f'<div class="article-image"><img src="{result["image"]}" alt="" style="max-width:100%;border-radius:8px;margin-bottom:1rem;" /></div>'
-            return images_html + text_content
-        return None
-    except Exception as e:
-        print(f"  Failed to fetch article: {e}")
+        soup = BeautifulSoup(resp.text, "lxml")
+
+        for tag in soup(["script", "style", "nav", "header", "footer", "aside"]):
+            tag.decompose()
+
+        img = soup.find("meta", property="og:image") or soup.find("img")
+        img_html = ""
+        if img:
+            src = img.get("content") or img.get("src", "")
+            if src and not src.startswith("data:"):
+                img_html = f'<div class="article-image"><img src="{src}" alt="" style="max-width:100%;border-radius:8px;margin-bottom:1rem;" /></div>'
+
+        text = soup.get_text(separator="\n", strip=True)
+        lines = [l for l in text.split("\n") if len(l) > 40]
+        content = "\n\n".join(lines[:30])
+        content = content.replace("\n", "</p><p>")
+        content = f"<p>{content}</p>"
+        return img_html + content
+    except:
         return None
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -76,21 +76,20 @@ def fetch_rss(source, existing_ids):
     try:
         feed = feedparser.parse(source["url"])
         entries = [e for e in feed.entries if hashlib.md5(e.link.encode()).hexdigest()[:12] not in existing_ids][:10]
-        print(f"  {len(entries)} new entries from {source['name']}")
+        print(f"  {len(entries)} new from {source['name']}")
         for i, entry in enumerate(entries):
             title = entry.get("title", "")
-            summary = entry.get("summary", "")[:300]
-            text_for_check = title + " " + summary
-            cat = classify(text_for_check)
-            if not cat:
+            summary = (entry.get("summary") or "")[:300]
+            if not classify(title + " " + summary):
                 continue
 
-            print(f"  [{i+1}/{len(entries)}] Fetching article: {title[:50]}...")
-            content = fetch_full_article(entry.link)
+            print(f"  [{i+1}/{len(entries)}] {title[:60]}...")
 
-            if not content:
-                print(f"  Using RSS summary instead")
-                content = summary
+            has_full = hasattr(entry, "content") and entry.content
+            if has_full:
+                content = entry.content[0].get("value", summary)
+            else:
+                content = extract_article(entry.link) or summary
 
             if source["lang"] == "en":
                 content = translate_en_to_zh(content)
@@ -105,17 +104,16 @@ def fetch_rss(source, existing_ids):
 
             items.append({
                 "id": item_id,
-                "title": title if source["lang"] != "en" else translate_en_to_zh(title),
+                "title": translate_en_to_zh(title) if source["lang"] == "en" else title,
                 "content": content[:10000],
                 "link": entry.link,
                 "published": pub_iso,
                 "source": source["name"],
-                "lang": source["lang"],
-                "categories": [cat],
+                "categories": [classify(title + " " + summary)],
             })
             time.sleep(1)
     except Exception as e:
-        print(f"  Failed to fetch source: {e}")
+        print(f"  Error: {e}")
     return items
 
 def main():
@@ -127,26 +125,22 @@ def main():
             for item in json.load(f):
                 existing[item["id"]] = item
 
-    existing_ids = set(existing.keys())
     all_new = []
     for source in RSS_SOURCES:
         print(f"Fetching {source['name']}...")
-        all_new.extend(fetch_rss(source, existing_ids))
+        all_new.extend(fetch_rss(source, set(existing.keys())))
 
-    print(f"\nNew items: {len(all_new)}")
-
+    print(f"\nNew: {len(all_new)}")
     for item in all_new:
         existing[item["id"]] = item
 
     all_news = sorted(existing.values(), key=lambda x: x["published"], reverse=True)
-
     cutoff = datetime.now(timezone.utc) - timedelta(days=30)
     all_news = [n for n in all_news if datetime.fromisoformat(n["published"].replace("Z", "+00:00")) > cutoff]
 
     with open(NEWS_FILE, "w", encoding="utf-8") as f:
         json.dump(all_news, f, ensure_ascii=False, indent=2)
-
-    print(f"Saved {len(all_news)} items to {NEWS_FILE}")
+    print(f"Saved {len(all_news)} items")
 
 if __name__ == "__main__":
     main()
