@@ -1,5 +1,16 @@
 [
   {
+    "id": "6c81ed661ccc",
+    "title": "摩根士丹利表示，由于强大的癌症药物管道抵消了 Keytruda 专利到期的影响，默克公司被买入",
+    "content": "摩根士丹利表示，默克公司生产广受欢迎的癌症治疗药物 Keytruda，随着其管道药物即将上市，该公司有望取得进展。",
+    "link": "https://www.cnbc.com/2026/08/20/merck-is-finding-more-ways-to-boost-its-shares-morgan-stanley-says.html",
+    "published": "2026-08-20T12:01:13+00:00",
+    "source": "CNBC Top News",
+    "categories": [
+      "AI"
+    ]
+  },
+  {
     "id": "2b25592c7349",
     "title": "特朗普在谈判陷入僵局期间加强对伊朗的言论，油价上涨3%",
     "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108347821-1786452090144-gettyimages-2289259661-img_8455.jpeg?v=1786452116&w=1920&h=1080\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>美国总统唐纳德·特朗普誓言对伊朗进行“经济战”并对其支持者进行经济处罚，同时阿拉伯联合酋长国表示将暂停与德黑兰的贸易，周四油价走高。</p><p>截至美国东部时间上午 7:55，国际价格基准布伦特原油期货上涨 2.9%，达到每桶 94.31 美元。早盘交易中，9 月交割的美国西德克萨斯中质原油期货上涨 3.3%，至 88.67 美元。</p><p>特朗普在《Truth Social》帖子中表示，他为伊斯兰共和国提供了达成协议的机会。他说：“可悲的是，对他们来说，他们没有接受这一点。”</p><p>“因此，今天，我宣布对任何国家采取有史以来最具破坏性的经济行动！这将是前所未有的经济战争和孤立。”</p><p>他还威胁说，任何为伊朗提供生命线的国家都将面临“巨大的经济后果”。总统表示，这包括现金转移、货币互换和航运登记。</p><p>在海湾国家周二表示遭到伊斯兰共和国的攻击后，阿联酋周三表示将停止与伊朗的所有贸易和金融交易，导致油价上涨。</p><p>作为伊朗主要商业伙伴之一的阿联酋表示，已从伊朗向其领土发射了两枚弹道导弹。伊朗外交部发言人埃斯梅尔·巴格海否认了此次袭击。</p><p>此举给已经面临美国经济制裁的伊朗带来了进一步的压力，并进一步推动了重新签订停火协议的前景。</p>",
@@ -8885,54 +8896,6 @@
     "source": "BBC Business",
     "categories": [
       "AI"
-    ]
-  },
-  {
-    "id": "ad85e59f4be0",
-    "title": "英国六月借款低于预期但公共财政仍是挑战",
-    "content": "上个月的公共财政好于预期，但英国背负着巨额债务。",
-    "link": "https://www.bbc.co.uk/news/articles/cx2vd3qgjy9o?at_medium=RSS&at_campaign=rss",
-    "published": "2026-07-21T12:36:29+00:00",
-    "source": "BBC Business",
-    "lang": "en",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "id": "35a31f225a47",
-    "title": "在芯片制造商和强劲盈利的推动下，股票期货走高：实时更新",
-    "content": "由于投资者等待更多企业财报，周二早盘股指期货走高。",
-    "link": "https://www.cnbc.com/2026/07/20/stock-market-today-live-updates.html",
-    "published": "2026-07-21T12:32:02+00:00",
-    "source": "CNBC Top News",
-    "lang": "en",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "id": "1185589daea7",
-    "title": "通用汽车业绩好于预期，在消费者“有弹性”的情况下提高了指导，定价",
-    "content": "由于北美业务继续推动业绩增长，通用汽车在第二季度超出华尔街预期后，上调了几项关键盈利预测。",
-    "link": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html",
-    "published": "2026-07-21T12:25:49+00:00",
-    "source": "CNBC Top News",
-    "lang": "en",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "id": "ef60a6e034ba",
-    "title": "以下是周二最重要的分析师电话：Nvidia、SpaceX、Tesla、Meta、Micron、Oracle、Five Below 等",
-    "content": "以下是周二华尔街最大的呼吁。",
-    "link": "https://www.cnbc.com/2026/07/21/tuesdays-biggest-analyst-calls-include-nvidia-spacex.html",
-    "published": "2026-07-21T12:15:41+00:00",
-    "source": "CNBC Top News",
-    "lang": "en",
-    "categories": [
-      "科技股"
     ]
   }
 ]
