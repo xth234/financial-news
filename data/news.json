@@ -8633,16 +8633,5 @@
     "categories": [
       "AI"
     ]
-  },
-  {
-    "id": "920a61acad1b",
-    "title": "Anthropic 的新人工智能模型可与《神鬼寓言 5》相媲美，而且由于企业担心成本而更便宜",
-    "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108338735-1784745509821-gettyimages-2280291575-ANTHROPIC_CIRCUIT.jpeg?v=1784745558&w=1920&h=1080\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>Anthropicon Friday 发布了其最新的人工智能模型 Claude Opus5，据称该模型是其在多项行业基准测试中性能最佳、最具成本效益的产品。</p><p>Opus 5 在编码和知识工作评估方面优于 Anthropic 发布的最后一个模型 Claude Fable 5，根据一篇博客文章，该公司表示该模型“旨在每天使用”。 Opus 5 的价格也是《神鬼寓言 5》的一半，用户每百万个输入代币将花费 5 美元，每百万个输出代币将花费 25 美元。</p><p>Anthropic 表示，Opus 5 并不是最先进的“有风险的双用途功能”（例如网络安全）。</p><p>该模型的推出正值 Anthropic 及其主要竞争对手 OpenAI 一直在努力安抚更具成本意识的客户群，而企业不太愿意这样做。在不清楚投资回报的情况下尝试昂贵的模型。 Anthropic 还面临来自兜售更便宜产品的竞争对手的压力，包括微软、亚马逊、谷歌和一些中国初创公司。</p><p>“根据我们的反馈和我们的客户群，企业正在寻找价值，”Anthropic 研究产品管理主管 Dianne Penn 在接受 CNBC 采访时表示。 “如果它是一个更便宜的模型或更便宜的产品，但它没有达到类似的质量水平，那么它实际上没有用。”</p><p>自从 Anthropic 在 4 月份发布了名为 Claude Mythos Preview 的模型并向特定用户组推出以来，它就一直受到严格审查。该公司表示，该模型在网络安全方面能力极强，并且擅长发现和利用软件中的漏洞。</p><p>6 月份，Anthropic 发布了该模型的更新版本 Mythos 5，并且还推出了该模型的另一个版本 Fable 5，据称该版本对于一般用途来说是安全的。根据一篇博客文章，该公司表示，《神鬼寓言 5》的功能超过了其曾公开发布的所有其他模型。</p><p>Anthropic 不得不在《神话 5》和《神鬼寓言》发布 5 天后暂时禁用它们的访问，以遵守政府引用“国家安全当局”的出口管制指令。经过大约两周的紧张谈判后，出口管制被取消，Anthropic 能够恢复对这两种模型的访问。</p><p>Penn 表示，Anthropic 正在继续与政府机构合作，作为其预部署和测试的一部分，其中包括 Opus 5。该公司表示，Opus 5 在进攻性网络安全和生物学研究方面仍落后于 Mythos 5。</p><p>观看：DA 表示，Anthropic 的合作伙伴关系正在推动 Google 收入的增长戴维森的吉尔·卢里亚</p>",
-    "link": "https://www.cnbc.com/2026/07/24/anthropic-claude-opus-5-ai-fable-5-cost.html",
-    "published": "2026-07-24T17:20:47+00:00",
-    "source": "CNBC Top News",
-    "categories": [
-      "AI"
-    ]
   }
 ]
