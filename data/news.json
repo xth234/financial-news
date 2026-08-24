@@ -1,5 +1,16 @@
 [
   {
+    "id": "b380ca380bc1",
+    "title": "Supreme Court allows some Trump vote-by-mail limits ahead of midterm election",
+    "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108326888-1782401753108-gettyimages-2278793695-CALIFORNIA_PRIMARY_ELECTION.jpeg?v=1782405357&w=1920&h=1080\" style=\"max-width:100%;border-radius:8px;margin-bottom:1rem;\" /></div><p>TheSupreme Courton Monday sided with PresidentDonald Trumpfor now in his effort to impose sweeping new restrictions on distributing mail ballots, putting on hold a lower-court ruling that had blocked key parts of the plan ahead of November's midterm elections.</p><p>The justices, over three dissents, paused a ruling by U.S. District Judge Indira Talwani in Boston that prevented the Trump administration from carrying out portions of a March executive order involving the U.S. Postal Service and voter eligibility lists.</p><p>The decision is an interim victory for Trump and does not resolve the underlying legality of his order.</p><p>And it does not immediately clear the way for the new mail-ballot system to take effect. A separate injunction Talwani issued on Aug. 11 still bars the Postal Service from implementing the procedural changes for the Nov. 3 elections. The administration would need to overcome that order as well.</p>",
+    "link": "https://www.cnbc.com/2026/08/24/supreme-court-mail-voting-trump.html",
+    "published": "2026-08-24T21:18:47+00:00",
+    "source": "CNBC Top News",
+    "categories": [
+      "AI"
+    ]
+  },
+  {
     "id": "6d512679c913",
     "title": "Jim Cramer says don't sell Meta on litigation risk — the stock is worth the wait",
     "content": "Meta's court battles are an overhang on the stock, but its business fundamentals make it one worth holding.",
@@ -8883,17 +8894,6 @@
     "link": "https://www.bbc.co.uk/news/articles/c4g3x4j8pgro?at_medium=RSS&at_campaign=rss",
     "published": "2026-07-26T00:17:50+00:00",
     "source": "BBC Business",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "id": "09acc30cc8f8",
-    "title": "三星电子赢得价值 2000 亿美元的博通 AI 芯片合作伙伴关系，推动代工业务发展",
-    "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108177489-1753665668472-gettyimages-1986369174-csj00832_vxjcdzhl.jpeg?v=1753665714&w=1920&h=1080\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>三星电子周六表示，它与美国芯片设计商博通 (Broadcom) 达成协议，扩大存储芯片、代工芯片制造和先进封装领域的合作，预计到 2030 年将超过 2000 亿美元。</p><p>赢得全球领先的定制 AI 芯片设计商之一博通 (Broadcom) 的长期生产承诺，可以提高三星先进制造工厂的利用率，从而在供应竞争中取得领先人工智能芯片。</p><p>该公司在一份声明中表示：“扩大合作......反映了三星专注于在日益多样化的人工智能和高性能计算应用领域为客户提供端到端半导体技术支持。”</p><p>此次合作正值全球科技公司越来越多地开发自己的定制人工智能加速器，而不是仅仅依赖通用图形处理器，从而推动了对专业芯片设计和制造的需求。两家公司的谅解备忘录强调了三星在定制人工智能处理器需求不断增长的情况下，通过扩大与博通的长期合作来增强其在人工智能半导体领域的地位。</p><p>未来五年的合作将把博通在设计专用集成电路（ASIC）或特定任务芯片方面的专业知识与三星的制造能力结合起来。</p><p>该交易规定三星表示，博通的下一代通信芯片专为高速数据传输而设计，将采用三星的亚 2 纳米工艺技术制造。</p><p>两家公司还将合作开发下一代高带宽内存 (HBM) 产品。</p><p>此次合作可能有助于加强三星的代工业务，因为三星寻求通过吸引主要技术来缩小与行业领导者台积电的差距上个月，联合首席执行官兼芯片部门负责人 Jun Young-hyun 表示，他与 Nvidia 首席执行官黄仁勋讨论了下一代代工合作，包括未来的 HBM4E 和 HBM5 内存产品。</p><p>三星今年表示，在与主要科技公司讨论后，预计在短期内获得更先进的 2 纳米代工订单。去年，它赢得了一份价值 165 亿美元的合同，为电动汽车制造商特斯拉生产逻辑芯片。 ​‌</p>",
-    "link": "https://www.cnbc.com/2026/07/25/samsung-electronics-wins-200-billion-broadcom-ai-chip-partnership.html",
-    "published": "2026-07-25T21:11:49+00:00",
-    "source": "CNBC Top News",
     "categories": [
       "AI"
     ]
