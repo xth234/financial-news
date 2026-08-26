@@ -1,5 +1,16 @@
 [
   {
+    "id": "00497b689d21",
+    "title": "Mortgage rates hit highest level in 3 weeks, weakening demand further",
+    "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108351241-1787091269608-gettyimages-2288493560-US_HOUSING.jpeg?v=1787091309&w=1920&h=1080\" style=\"max-width:100%;border-radius:8px;margin-bottom:1rem;\" /></div><p>Mortgage interest rates moved even higher last week, causing demand for loans to weaken yet again.</p><p>Total mortgage application volume dropped 1% from the previous week, according to the Mortgage Bankers Association's seasonally adjusted index.</p><p>The average contract interest rate for 30-year fixed-rate mortgages with conforming loan balances of up to $832,750 increased last week to 6.78% from 6.77% the prior week, with points increasing to 0.66 from 0.65, including the origination fee, for loans with a 20% down payment. That is the highest level in three weeks.</p><p>Applications to refinance a home loan, which are most sensitive to weekly rate moves, fell 2% for the week. They were 17% lower than the same week one year ago, when rates were 9 basis points lower.</p><p>\"Refinance applications decreased, particularly for FHA and VA loans, and the average loan size for refinances was at its lowest since June 2025,\" said Joel Kan, MBA's vice president and deputy chief economist, in a release.</p><p>CNBC's Property Play with Diana Olick covers new and evolving opportunities for the real estate investor, delivered weekly to your inbox.</p><p>Subscribe here to get access today.</p><p>Applications for a home mortgage fell 0.3% for the week and were 5% lower than the same week a year ago.</p><p>Even though rates are higher than last year,fewer buyers are using all cash, according to a separate report from Realtor.com. Less competition in the overall market makes sellers more likely to accept buyers who need financing.</p><p>\"Purchase activity was down over the week, driven by a 7 percent decrease in FHA applications. The purchase market has also slowed these past two months,\" Kan added.</p><p>Mortgage rates are lower this week, according to a separate survey from Mortgage News Daily, with rates dropping Tuesday thanks to lower oil prices.</p><p>\"News reports suggested progress in the peace process via Pakistani mediators. Oil prices dropped sharply in response, and bond yields followed the move. Bond yields correlate with mortgage rates,\" wrote Matthew Graham, chief operating officer at Mortgage News Daily.</p>",
+    "link": "https://www.cnbc.com/2026/08/26/mortgage-rates-hit-highest-level-in-3-weeks-weakening-demand-further.html",
+    "published": "2026-08-26T11:00:01+00:00",
+    "source": "CNBC Top News",
+    "categories": [
+      "AI"
+    ]
+  },
+  {
     "id": "9101dd34c067",
     "title": "Are investors backing the ‘wrong future’ in AI? Analyst sees unexpected winners  — and bad news for hyperscalers",
     "content": "One investment strategist said local AI models could upend the data center boom — and named these potential winners from the fallout.",
@@ -9388,17 +9399,6 @@
     "content": "<div class=\"article-image\"><img src =“https://image.cnbcfm.com/api/v1/image/108317416-1780669969197-gettyimages-2279256400-jung-nvidiace260605_nprgq.jpeg?v=1780670112&w=1920&h=1080”样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>随着流氓 OpenAI 模型实施的网络攻击的影响仍在继续，英伟达和众多科技巨头周一推出了一项新的人工智能安全计划，重点关注开放模型。</p><p>上周，有消息称，攻击目标初创公司 Hugging Face 无法使用美国领先的前沿模型来保护自己，护栏无法区分攻击者和防御者。相反，它转向了不受这些相同限制约束的自托管、开放权重中国模型。</p><p>随着美国立法者越来越多地权衡如何遏制中国人工智能模型（其中最先进的是开放权重）的日益普及，科技巨头发起了一项旨在构建和共享开放人工智能工具的计划。</p><p>与封闭模型（包括由 Anthropic 和 OpenAI 构建的前沿系统）相比，开放模型可以下载、修改和自托管 -只能通过特定的基础设施进行访问。</p><p>“开放安全人工智能联盟将致力于使用开放技术来修复和披露漏洞，”英伟达在一份声明中表示。 “最近的 Hugging Face 安全事件清楚地提醒我们：网络防御者需要开放的前沿代理系统来进行自卫。”</p><p>除了 Nvidia，该联盟的其他成员还包括微软、SpaceX、Palantir 以及来自美国和欧洲的数十家其他科技公司。</p><p>越来越多的人呼吁采取措施限制对中国人工智能公司构建的模型的访问，这些公司被指控从美国竞争对手的系统中提取信息。这被称为“蒸馏”——一个模型从训练有素的模型中提取知识。</p><p>上周，财政部长斯科特·贝森特威胁要对那些对美国公司进行蒸馏攻击的中国公司实施制裁。</p><p>“美国政府确实有可能对中国模型施加限制，”智库外交关系委员会中国和新兴技术高级研究员 Chris McGuire 向 CNBC 表示。</p><p>这可能包括禁止涉及相关交易的交易他说：“在华盛顿，这不是关于开源与闭源的争论，而是关于是否容忍中国知识产权盗窃的争论。” “任何行动都将针对中国公司，而不是开源生态系统。”</p><p>但是，由于大多数最有能力的开源模型都是由中国公司构建的，因此人们对限制感到担忧。</p><p>上周，Nvidia、微软、Meta、Palantir 和其他 20 多家公司发布了一封信，敦促政策制定者避免对开放权重人工智能模型进行“过早限制”，否则会“扼杀竞争或推动创新” ”</p><p>OpenAI 抱脸事件展现了“现实的真相”，英伟达表示。 “当防御者无法在自己的基础设施上检查、调整和运行先进的人工智能时，他们的响应能力就在速度最重要的时刻受到限制。”</p>",
     "link": "https://www.cnbc.com/2026/07/27/nvidia-ai-initiative-openai-cyber-attack.html",
     "published": "2026-07-27T11:32:45+00:00",
-    "source": "CNBC Top News",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "id": "687c1c543ca8",
-    "title": "Piper Sandler 表示，随着机器人出租车市场的增长，Rivian 将成为大赢家",
-    "content": "该投资公司表示，由于垂直整合，这家电动汽车制造商将成为未来市场的关键参与者。",
-    "link": "https://www.cnbc.com/2026/07/27/rivian-will-emerge-as-big-winner-as-robotaxi-market-grows-says-piper-sandler.html",
-    "published": "2026-07-27T11:22:13+00:00",
     "source": "CNBC Top News",
     "categories": [
       "AI"
