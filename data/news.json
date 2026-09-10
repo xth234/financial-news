@@ -1,5 +1,27 @@
 [
   {
+    "id": "7f011c08f4ae",
+    "title": "OpenAI targets work of Wall Street junior bankers with new ChatGPT for Financial Services",
+    "content": "<div class=\"article-image\"><img src =“https://image.cnbcfm.com/api/v1/image/108361349-1789061236185-gettyimages-2221337331-kokovlis-notitle250625_npN2j.jpeg?v=1789061264&w=1920&h=1080”样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>OpenAI 的目标是通过新版本的 ChatGPT 解决华尔街最耗费人力的任务，该版本旨在研究公司、分析财务数据并生成投资银行家所依赖的演示文稿。</p><p>周四推出的产品名为 ChatGPT for Financial Services，是其企业产品 ChatGPT Work 的定制版本，该产品是与“设计合作伙伴”摩根士丹利和 Evercore 共同开发的，OpenAI 产品副总裁 Nick 表示。特利。它使用人工智能公司最新、最先进的模型 GPT-6 Astra。</p><p>OpenAI 的推出使 OpenAI 更深入地进入了传统上由华尔街入门级银行家占据的领域，这些刚毕业的大学毕业生被称为分析师和助理，该行业几十年来一直雇用他们来研究交易和创建宣传手册。它还展示了该公司在为人们普遍预期的重磅首次公开募股做准备时，不断进军企业产品。</p><p>Turley 在宣布新产品的简报中表示：“我们正在有效地教导 ChatGPT 像分析师一样进行研究，并像分析师一样支持其结论。”抵御包括 Anthropic 和 Google 在内的竞争对手。去年，Claude for Financial Services 宣布了 Anthropic 为华尔街量身定制的解决方案。</p><p>OpenAI 财务主管 Sarah Friar 在 8 月份向投资者表示，该公司的企业业务所占收入高于其消费者业务，消费业务在 2022 年推出 ChatGPT 后开始腾飞。</p><p>Turley 在发布会上告诉记者，OpenAI 计划为金融服务以外的“多个领域”发布定制解决方案。</p><p>在新产品的现场演示中，Turley 展示了该平台分析潜在的并购目标，从行业标准数据源中提取财务数据，并根据银行预先格式化的风格指南创建格式化的 PowerPoint 演示文稿。</p><p>“制作看起来不错的幻灯片很容易，但制作实际上有意义的幻灯片要困难得多，”Turley 说。 “为了达到这一目标，ChatGPT 必须选择相关的同行。它必须将价格拉入电子表格。它必须对照数据检查图表，并且必须解释抛售和反弹。”</p><p>这个版本与其所基于的产品 ChatGPT Work 的区别在于，可以从 LSEG、Daloopa 和 PitchBook 访问本机数据，为系统提供财务报表和收益记录等内容，并自动访问用户现有数据订阅。</p><p>专为金融行业量身定制的其他功能包括允许用户将数据追溯到源文件和审计图表的引文，以及对敏感交易材料的管理控制。</p><p>虽然 Turley 表示，对该版本的 ChatGPT 有“大量需求”（最初面向投资银行和股票研究），但他拒绝透露已签约的银行名称。</p><p>当 CNBC 询问最新版本的 ChatGPT 是否会为了减少投资银行雇用初级银行家的需要，Turley 将此次发布视为一种效率提升，可以最大限度地提高每位员工的生产力。</p><p>“如果你研究分析师或银行家的生活，根据行业的不同，他们每周工作 100 小时，”Turley 说。 “我认为，就像 Microsoft Excel 改变了行业并让他们能够更快地生成更好的分析一样，您也会看到类似的技术也能起到同样的作用。”</p><p>尽管如此，该产品仍然为长期建立在严格学徒模式的行业提出了基本问题。如果生成式人工智能能够在几分钟内执行研究和宣传手册格式等多步骤任务，华尔街将被迫重新考虑如何培训下一代交易撮合者，以及需要多少人。</p><p>上个月，负责该银行旗舰人工智能项目之一的高盛合伙人克里斯·丘奇曼警告说，帮助培训初级银行家的任务自动化可能会导致下一代交易撮合者的“认知萎缩”。金融家。</p><p>“推理仍然很重要，”丘奇曼当时说道。 “你仍然需要推理[问题]并将其构建为一个论点，现在我们正在委托推理。”</p>",
+    "link": "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html",
+    "published": "2026-09-10T19:02:58+00:00",
+    "source": "CNBC Top News",
+    "categories": [
+      "AI"
+    ]
+  },
+  {
+    "id": "2fb3f1482de2",
+    "title": "AI is losing its stranglehold on the U.S. stock market. Here's why",
+    "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108357833-1788364301709-Traders-OB-20260902-ACJ-PRESS-8.jpg?v=1788364539&w=1920&h=1080\" style=\"max-width:100%;border-radius:8px;margin-bottom:1rem;\" /></div><p>A key tech-stock volatility metric options traders have been watching all year is reversing, sending a sign to investors that the U.S. bond market may now be usurping AI optimism as the primary driver of the stock market.The spread between the volatility of big tech names and the rest of the stock market – measured most frequently by the difference between the Cboe's VIXEQ and VIX indexes – blew out to record highs this summer as tech giants behind the AI boom regularly moved hundreds of billions of dollars of market cap per day while the rest of the market stayed stagnant. Now the trend is reversing, with traders selling broad chunks of index-wide equity exposure as VIX jumps to the highest since April relative to VIXEQ.Paired with an accelerating sell-off in U.S. Treasury bonds and the 10-year yield approaching a three-year high of 5 percent, it's a sign that investors are likely shifting their focus to macroeconomics and policy as the primary catalysts for the market's direction.</p><p>\"Throughout the summer single-name implied volatility raced ahead of S&P 500 implied volatility as traders discounted macro issues and focused on name-specific stories, particularly in the AI space,\" Scott Nations, president at Nations Indexes, said in an email. \"That trend is reversing as resurgent inflation—fueled by higher oil prices — the Fed's response at its September 16th meeting, and other political and geopolitical concerns dominate thinking.\"Crude oil futures are back above $100 for the first time since May and energy stocks in the S&P 500 Index made fresh highs Thursday as theState Street Energy Select Sector SPDR ETF (XLE)extended its lead over technology stocks as the best-performing sector of the year, now up 43 percent.Volatility in 18 of 19 stocks tracked by Nations Indexes' VolDex metric – a volatility gauge that uses at-the-money options prices – collapsed on Thursday, according to Nations. Exxon Mobil was the exception.There's one other key factor sucking volatility out of the AI trade that's unrelated to bonds, oil and the Federal Reserve – the end of earnings season, a natural catalyst for elevated volatility around big binary events. There's also a feedback loop of sorts between stock prices and demand for options among retail traders: when popular stocks likeMicronandSanDiskstop going up, the options flows that lean bullish slow down.Implied volatility in Micron fell from a high of 112 prior to its late June earnings to as low as 58 last week, despite the share price declining. Similarly, inSpaceX, despite gaining 30 percent since its August report, volatility has fallen from a high of 122 to 56.\"The cross market/single stock to index volatility relationship has normalized,\" said Kevin Davitt, head of index options content at Nasdaq. \"The epicenter of the divergence earlier this summer was the semis where we saw semis up with vol up ripple into the index options and NDX in particular.\"</p>",
+    "link": "https://www.cnbc.com/2026/09/10/ai-is-losing-its-stranglehold-on-the-us-stock-market-heres-why.html",
+    "published": "2026-09-10T17:42:24+00:00",
+    "source": "CNBC Top News",
+    "categories": [
+      "AI"
+    ]
+  },
+  {
     "id": "eccba901c802",
     "title": "杰伊·伍兹表示，投资者放弃了这种人工智能游戏，但图表表明它值得一看",
     "content": "该股在 2026 年初引起了交易员的关注，势头推动股价上涨超过 75%。但这种情绪过于乐观。",
@@ -9378,39 +9400,6 @@
     "link": "https://www.bbc.co.uk/news/articles/c8xn7k2ldzxo?at_medium=RSS&at_campaign=rss",
     "published": "2026-08-11T20:22:40+00:00",
     "source": "BBC Business",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "id": "22b2d918337d",
-    "title": "随着芝商所推出期货合约，人工智能算力正在成为可交易资产类别",
-    "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108277549-1773349197756-Rubin_GPU_Feb_13_2026.jpg?v=1773349383&w=1920&h=1080\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>计算能力正在成为一种新的可交易资产类别，芝商所将推出首批与人工智能芯片运行成本挂钩的期货合约。</p><p>该交易所与 Silicon Data 合作，将于 10 月 5 日推出两种计算期货合约（等待监管部门批准），为公司和投资者提供一种交易和对冲人工智能计算能力价格的方式，就像交易石油、电力和其他大宗商品一样。</p><p>“多年来，两家公司购买完全相同的 GPU 容量可能会支付截然不同的价格，而无法知道谁获得了更好的交易，他们现在将有一个基准来检查，”Silicon Data 首席执行官 Carmen Li 在一份声明中表示。 “计算期货为市场提供了前所未有的东西：每个人工智能系统运行的资源的公开的、可交易的参考价格。”</p><p>这些合约将允许买家和卖家根据 Nvidia 的 H100 和更新的 Blackwell B200 图形处理单元的租赁成本进行交易，并将基于跟踪每小时 GPU 租赁价格的 Silicon Data 指数。每份合同将相当于 Nvidia H100 一个月的租金。</p><p>此次发布之际，华尔街正在寻找新的融资方式并获得巨大的人工智能基础设施建设的机会。 Nvidia 正在与一些全球最大的资产管理公司合作，计划向人工智能基础设施投入高达 5000 亿美元。</p><p>计算未来将为新兴金融生态系统增添另一层。投资者可以接触到底层计算能力本身的价格，而不是直接投资数据中心、芯片或构建它们的公司，而人工智能开发商和数据中心运营商可以利用这些合同来对冲他们的成本或收入。</p>",
-    "link": "https://www.cnbc.com/2026/08/11/ai-computing-power-becomes-a-tradable-asset-class-as-cme-starts-futures.html",
-    "published": "2026-08-11T18:09:08+00:00",
-    "source": "CNBC Top News",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "id": "36906cfa5777",
-    "title": "伊朗称在满足条件之前不会开放霍尔木兹海峡，美国油价升至每桶83美元以上",
-    "content": "<div class=\"article-image\"><img src =“https://image.cnbcfm.com/api/v1/image/108330706-17833366882026-07-03t131929z_1683 992226_rc2tvkas79wg_rtrmadp_0_iran-crisis-oil-exports.jpeg?v=1783336748&w=1920&h=1080\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>周二，伊朗高级官员表示，在华盛顿满足德黑兰的条件之前，霍尔木兹海峡不会重新开放。</p><p>截至下午 1:23，美国西德克萨斯中质原油期货上涨 1.4%，至每桶 83.25 美元。国际基准布伦特原油上涨 1.2%，至每桶 88.75 美元。由于达成增加霍尔木兹海峡船舶交通量协议的希望渺茫，油价本周上涨了约 6%。</p><p>据路透社报道，伊朗最高国家安全委员会秘书 Mohsen Rezaei 要求美国解冻伊朗在海外持有的资金，作为开放霍尔木兹海峡的条件。</p><p>周二，石油市场正在权衡美国和伊朗是否处于冲突边缘的相互矛盾的信号。协议。</p><p>巴基斯坦国防部长卡瓦贾·阿西夫 (Khawaja Asif) 告诉彭博新闻社，“局势再次有利于和平安排或达成协议。” 巴基斯坦在 6 月份斡旋了美伊临时协议，该协议破裂并导致续签。</p><p>与此同时，唐纳德·特朗普总统本周升级了言辞，要求伊朗向美国支付赔偿。一周前，财政部长斯科特·贝森特 (Scott Bessent) 告诉 CNBC，有关霍尔木兹的新协议可能很快就会达成，但协议仍未实现。</p><p>周一，通过霍尔木兹的船舶过境量仍然非常低，根据贸易情报公司 Kpler 的数据，只有八艘船只穿越该海峡。在 2 月 28 日美国和以色列发动袭击之前，已有 130 多艘船只穿越霍尔木兹。</p><p>能源部长克里斯·赖特 (Chris Wright) 周二表示，由于美国军方的帮助，通过霍尔木兹的石油出口量已达到每天 900 万桶的 7 天移动平均水平。赖特表示，如果算上管道出口，来自海湾地区的石油流量平均约为每天 1500 万桶。</p><p>与此同时，特朗普周一延长了限制美国港口与美国船只之间货物运输的航运法的暂停期限，同时将豁免范围缩小到仅运输某些能源资源的船只。</p><p>此举是在数据显示美国政府原油库存已降至 2019 年最低水平之后做出的。四十多年了。</p>",
-    "link": "https://www.cnbc.com/2026/08/11/oil-prices-today-us-crude-84.html",
-    "published": "2026-08-11T17:57:56+00:00",
-    "source": "CNBC Top News",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "id": "e42cf22afdc3",
-    "title": "随着比特币矿工将重点转向人工智能基础设施，Riot Platforms 与 Anthropic 达成协议",
-    "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108347847-1786455062599-gettyimages-2227552730-img_1125.jpeg?v=1786455079&w=1920&h=1080\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>CNBC 的 David Faber 证实，比特币矿商 Riot Platform 已与 Anthropic 达成了一项价值 90 亿美元、为期 20 年的计算协议。</p><p>该协议将在 Riot 位于德克萨斯州罗克代尔的计算机园区租赁 191 兆瓦的电力，随着可用于提供人工智能的计算能力的需求激增，Anthropic 将能够获得稀缺的并网电力，并将 Riot 从比特币矿商转变为人工智能基础设施业主。股价最初应声上涨超过 20%，随后几乎回吐全部涨幅。</p><p>该协议预计将在 20 年期限内产生 91 亿美元的收入，如果该协议再延长两个五年期，收入将增至约 161 亿美元。 Compass Point 分析师迈克尔·多诺万 (Michael Donovan) 在周二的一份报告中表示，Riot 与 Advanced Micro Devices 达成了现有协议，这意味着 Riot 现在拥有“两个租户的园区，合同数据中心收入达 98 亿美元”。</p><p>比特币矿业股票一度看起来像是获得比特币价格杠杆敞口的一种方式。但随着人工智能的发展，在加密货币价格长期暴跌的背景下，大多数公开交易的比特币矿商越来越被投资者视为数字基础设施的所有者，而不是比特币的生产者，因为它们的电力容量、数据中心资产和能源合同。</p><p>比特币矿商到人工智能的枢纽在 2022 年加密货币价格暴跌时开始形成，尽管通常是在比特币价格下跌时更有可能陷入困境的小公司中。持续回调——这意味着比特币的价格已经跌破了开采成本，包括电力、硬件和运营费用。</p><p>由于价格下降、竞争加剧以及每四年一次的比特币减半导致的挖矿激励措施的减少，矿业公司的利润受到挤压，直到最终亏损运营。</p><p>由比特币矿工转变为人工智能基础设施提供商为投资者提供人工智能需求的机会，而无需押注哪种模型或应用程序最终获胜——因为人工智能公司都需要同样日益稀缺的电力、计算能力和物理设施。</p><p>Cipher Mining、Hut 8 和 Terawulfare 等被称为混合比特币矿工。 Compass Point 分析师 Donovan 表示，Riot 以及 Mara Holdings 和 CleanSpark 在很大程度上仍然是该行业的纯粹矿商。</p><p>Compass Point 分析师 Donovan 表示，随着德克萨斯州电力可靠性委员会（ERCOT）审查新的电力项目，这种稀缺性可能会变得更有价值。</p><p>“ERCOT 加强审查可能会减缓仍在排队的投机项目，但并不会减少租户对电力项目的需求。大量近期电力，”他说。 “如果说有什么不同的话，那就是批准产能的稀缺应该会增加其战略价值。因此，我们重申对 Riot 股票的买入评级，并维持 29 美元的目标价”，他写道。</p>",
-    "link": "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html",
-    "published": "2026-08-11T17:43:14+00:00",
-    "source": "CNBC Top News",
     "categories": [
       "AI"
     ]
