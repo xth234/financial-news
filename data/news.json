@@ -1,5 +1,49 @@
 [
   {
+    "id": "b7a74ffa713d",
+    "title": "贝森特表示，作为伊朗战略的一部分，“一家大型银行”将于周一受到制裁",
+    "content": "<div class=\"article-image\"><img src =“https://image.cnbcfm.com/api/v1/image/108234702-17646190402025-12-01t193708z_25 672191_rc2v7iao6og2_rtrmadp_0_goldman-sachs-results.jpeg?v=1764619122&w=1920&h=1080\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>美国财政部长斯科特·贝森特周四表示，美国将于下周对“一家大型银行”实施制裁。</p><p>“我们将在周一实施制裁，因为我们想纪念 9/11 事件中阵亡的公民。但周一请注意这一点，”贝森特在“真实美国之声”节目中说道，但没有透露具体金融机构或制裁机构的名称。 </p><p>这一消息是在特朗普政府制裁埃及第二大银行迪拜分行之后发布的，据信该银行向伊朗提供了 18 亿美元的资金。据贝森特称，土耳其“一直向伊朗人提供资金”的最大银行也将被关闭。</p><p>自2月份中东冲突爆发以来，美国对伊朗实施了一系列经济措施，包括制裁。然而，特朗普政府上个月通过贝森特所谓的“经济放逐行动”加大了压力，对近 60 个实体、船只和个人实施了制裁。二级制裁的范围也扩大到与伊朗在航运和技术等行业开展业务的企业。</p>",
+    "link": "https://www.cnbc.com/2026/09/11/bessent-large-bank-sanctioned.html",
+    "published": "2026-09-11T01:07:44+00:00",
+    "source": "CNBC Top News",
+    "categories": [
+      "AI"
+    ]
+  },
+  {
+    "id": "fad3dd056c9e",
+    "title": "Anthropic 称，中国人工智能实验室秘密使用数百万个 Claude 交换来训练他们的模型",
+    "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108291329-1776192386700-gettyimages-2270583563-raa-anthropi260412_npZvE.jpeg?v=1776192426&w=1920&h=1080\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” Anthropic 表示，它发现并阻止了阿里巴巴、Moonshot 和 DeepSeek 等中国人工智能实验室未经授权大规模使用 Claude 训练其模型的行为。</p><p>这家美国人工智能公司在周四发布的一份威胁情报报告中表示，这些公司参与了所谓的“非法蒸馏”过程，即使用功能更强大的人工智能模型的输出来训练另一个模型并在不进行复制的情况下复制其部分功能。报告称，“其中一些交换包含敏感信息，包括来自个人用户、大型跨国公司和国家附属机构的信息……这些做法可能不符合隐私法和实验室自身的服务条款。”</p><p>Anthropic 表示，阿里巴巴附属运营商使用 Claude 输出来帮助训练其 Qwen 模型，而 Moonshot 将一些 Kimi 用户请求发送给 Claude，并使用一些由此产生的交换来训练自己的模型。 </p><p>Anthropic 表示，阿里巴巴的操作是其测量到的最大的蒸馏活动，5 月至 7 月期间涉及与 Claude 的超过 1.51 亿次交易。</p><p>据报告称，该活动的峰值为每天来自 3,500 多个欺诈账户的近 300 万次交易。该公司表示，阿里巴巴还利用 Claude 进行更广泛的人工智能研究，包括强化学习和模型架构。</p><p>Anthropic 还详细介绍了 Moonshot AI 的活动，Moonshot AI 是 Kimi 系列人工智能模型背后的一家总部位于北京的公司。</p><p>Moonshot 默默地将一些针对 Kimi 的客户请求转发给 Claude，然后向用户显示 Claude 的响应，据报道，用户认为自己正在使用 Kimi 模型。</p><p>在为期 10 天的时间里。在此期间，Moonshot 向 Anthropic 转发了近 300,000 个客户请求，其中绝大多数被路由到 Claude Opus 模型。这些请求是通过由 5,380 个帐户组成的网络发送的，Anthropic 称其为欺诈性帐户，其中大部分似乎位于新加坡和日本。</p><p>报告称，Moonshot 至少保存了其中一些交换，并提取了 Claude 的推理记录，用作其自己模型的训练数据。</p><p>据报告称，5 月至 7 月期间，超过 2300 万次交换归因于 Moonshot。</p><p>部分客户请求发送给克劳德的邮件包含敏感信息。该公司表示，不知道 Moonshot 是否已通知客户，他们的请求将被发送给 Anthropic。</p><p>该公司表示，DeepSeek 去年因其能力和低廉成本而声名鹊起，也使用了与 Moonshot 类似的策略，在不通知 DeepSeek 客户的情况下将交易转移给 Claude。 Anthropic 表示，在 2026 年 7 月的 14 天内，观察到由 DeepSeek 发起的超过 1200 万次蒸馏攻击。</p><p>该报告列出了其他几家中国主要人工智能公司的名字，涵盖了该公司称其在 2025 年 12 月至 2026 年 8 月期间扰乱的七个领域的活动，包括网络行动、影响力行动、监视、诈骗和欺诈、生物滥用、常规武器开发和蒸馏。</p><p>阿里巴巴、Moonshot、 DeepSeek、小米和 Anthropic 没有立即回应 CNBC 的置评请求。</p>",
+    "link": "https://www.cnbc.com/2026/09/11/chinese-ai-labs-moonshot-deepseek-alibaba-anthropic.html",
+    "published": "2026-09-11T00:59:45+00:00",
+    "source": "CNBC Top News",
+    "categories": [
+      "AI"
+    ]
+  },
+  {
+    "id": "84db6c29deca",
+    "title": "iPhone Duo 进入中国拥挤的可折叠市场 - 并面临价格考验",
+    "content": "<div class=\"article-image\"><img src =“https://image.cnbcfm.com/api/v1/image/108360733-17889791162026-09-09t18365 7z_845063295_rc2ufnaobo1w_rtrmadp_0_apple-event.jpeg?v=1788979182&w=1920&h=1080\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>苹果的首款折叠式手机在中国消费者中反应不温不火，他们更关注的是它的价格与国内竞争对手现有的可折叠手机相比。</p><p>据 CNBC 报道，社交媒体平台微信上的一位用户在苹果周三的一场活动中宣布推出 iPhone Duo 后表示，“我今年不会买它。明年我会买第二代可折叠手机。”它在中国的售价为 15,999 元人民币（2,230 美元）。</p><p>美国一位评论者在 CNBC 翻译的微信视频评论中写道，消费者“每月收入 3,000 美元到 4,000 美元，花 1,999 美元购买。我们赚 3,000 到 4,000 元人民币，花 10,000 元人民币”。</p><p>发布会后，苹果股价上涨超过 3%。</p><p>但该公司在第三大市场面临关键考验大中华区的营收约占总收入的 17%，是全球最具竞争力的可折叠手机市场之一。</p><p>华为、小米、荣耀、Oppo 和 Vivo 已经销售书本式、翻盖式手机以及三折式设计的设备。这意味着，在中国，iPhone Duo 正在进入比许多其他海外市场更成熟的类别。</p><p>在苹果发布会之前，小米和华为周一推出了新的旗舰可折叠手机，小米 18 Fold 和三折 Mate XT2，售价分别为 10,999 元和 19,999 元。</p><p>苹果 Duo“比华为便宜。你能接受吗？”一位微信评论者写道。</p><p>根据 Counterpoint 的数据，华为在第一季度和第二季度均引领中国智能手机市场。数据显示，苹果排名第二，其次是 Vivo 和 Oppo。</p><p>根据 Counterpoint 的数据，在全球范围内，三星第二季度智能手机出货量以微弱优势重新领先于苹果，而小米排名第三。今年早些时候，三星推出了新版折叠手机，预计将在可折叠手机市场份额中超越苹果，根据研究，三星以 32% 的市场份额大幅领先苹果和华为，分别为 25% 和 24%。</p><p>除了价格之外，中国社交媒体上的用户还对 Duo 没有实体 SIM 卡插槽表示担忧，这可能需要大陆用户前往运营商商店进行身份验证才能激活手机。 eSIM。</p><p>小米 18 Fold 将于周四开始发售。几天后，华为推出了 Mate XT2。 Apple 的 iPhone Duo 预定于 10 月 16 日开始预订，并于 10 月 23 日开始销售。</p><p>—CNBC 的 Jenny Lee 对本报告作出了贡献。</p>",
+    "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html",
+    "published": "2026-09-11T00:19:54+00:00",
+    "source": "CNBC Top News",
+    "categories": [
+      "AI"
+    ]
+  },
+  {
+    "id": "9f68046a3111",
+    "title": "周五的重大股票故事：下一个交易日可能会影响市场的因素",
+    "content": "受国债收益率和油价上涨拖累，主要股指周四连续第四个交易日下跌。",
+    "link": "https://www.cnbc.com/2026/09/10/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+    "published": "2026-09-10T23:37:19+00:00",
+    "source": "CNBC Top News",
+    "categories": [
+      "AI"
+    ]
+  },
+  {
     "id": "6bc8ba6e90a8",
     "title": "I asked my husband to pay into my pension when we had a child - here's why",
     "content": "<div class=\"article-image\"><img src=\"https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/a593/live/bd412620-a7a2-11f1-a7ad-37a1f7dc081c.jpg\" style=\"max-width:100%;border-radius:8px;margin-bottom:1rem;\" /></div><p>Image source,Molly HaylettImage caption,Molly and Taylor met in their 20s and how they organise money as a couple has changed over timeByYasmin RufoBusiness reporterPublished28 minutes agoWhen Molly and Taylor Haylett started their family, they hadn't really planned for what it would mean financially.\"Our first child surprised us, so we weren't prepared for it,\" says Molly, 30, a financial adviser from Essex.Molly and Taylor, who's a train driver, were earning similar amounts, but once Molly spent more time at home with their baby, the balance changed.\"Taylor's career propelled and mine took a step back,\" she says. \"There's an unintended impact on the person who spends more time at home with the kids.\"One of the things the couple decided to do was have Taylor contribute to Molly's pension while she was off work.\"We were looking after both our futures, not just Taylor's,\" Molly says.It is something she thinks far more couples should discuss before having children.'You've got to just ask him'She explains that she recently had a conversation about this with a friend as she is going to stop working after having children.\"My friend said, 'How would I even ask him to do that?' And I said, 'You've got to just ask him.'\"People think only about the present and paying the bills but the person taking time off work could end up with much less in the future.\"Taylor, 33, admits it was not something he knew about but was on board with Molly's suggestion.\"We committed to a life together and if I could help out I would and I was pleased that I did,\" he says.He adds that Molly is the more organised of the two when it comes to planning and budgeting, but says he still wants to understand where their money is going.\"I don't just give her money and let her do what she wants. We have open conversations and she'll talk me through it.\"Image source,Molly HaylettImage caption,Molly says she manages the household finances as Taylor isn't as interested in it as she isResearch by Octopus Money found more than a third of parents reduced or paused pension contributions during parental leave, while 63% did not know their partner could contribute on their behalf.A partner can make what is known as a third-party pension contribution. For someone with no or low earnings, up to Â£2,880 can be paid in each tax year, with basic-rate tax relief increasing that to Â£3,600.For someone still earning, their partner can also contribute, subject to the recipient's pension limits.Katie Guild, co-founder of financial community Nugget Savings, says the pension gap can begin during maternity leave because an employee's own contributions can fall as their pay drops, and contributions may stop altogether during periods of unpaid leave.She says couples should consider whether the partner continuing to work could help make up some of that shortfall.Before having a baby, she recommends working through a few key questions:Guild says these conversations are easier before a baby arrives than when parents are sleep-deprived and adjusting to life with a newborn.Molly and Taylor now have two children, aged two and five, and say they were much more prepared the second time around and stopped thinking about household costs as something that always needed to be divided exactly in half.The couple, who each earn around Â£60,000, have their own bank accounts alongside a joint account for bills, but are flexible with the amount each contributes when their circumstances change.During Molly's maternity leave, for example, they adjusted the split and she's found it helpful to \"view finances as a household\".The couple say they are teaching their children about money from an early age.They set pensions up for both kids when they were born and have been paying into them through a monthly direct debit.Molly explains: \"It's like a gift for the future as they can't touch that money until they're in their 60s and we won't be there to see that.\"They also use Junior ISAs, although Molly points out that once the children are old enough, the money becomes theirs to spend \"and if they want to, they can take that money and blow it in Ibiza\".Taylor says their five-year-old is given small jobs to earn a couple of pounds, rather than simply being bought everything she asks for.They are also beginning to introduce the idea of saving by telling her that she can spend a pound now or hold on to it and potentially have more later.Guild says couples should check what support they can receive, includingfunded childcare hours,externalandTax-Free Childcare,external.She adds that conversations about money should not stop once parental leave begins and when the baby arrives she advises couples should:Related topicsPersonal financeCost of LivingMotherhoodParental leaveMore on this storyWe split money equally even when one of us earned a lot morePublished24 JulyI wouldn't marry him until he paid off his debt, now I'm in charge of our moneyPublished17 July</p>",
@@ -9399,17 +9443,6 @@
     "content": "<div class=\"article-image\"><img src =“https://image.cnbcfm.com/api/v1/image/108346931-1786142982291-gettyimages-2287574652-businessman_hand_operating_tablet_red_hacked_ai_bot_cyber_at.jpeg?v=1786143082&w=1920&h=1080”样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>最近发生的一系列人工智能黑客事件将网络安全推到了讨论的最前沿，实验室竞相利用其前沿模型开发代理人工智能。</p><p>上周，OpenAI 和 Anthropic 表示模型突破了他们的测试环境并入侵了其他公司。随后，Meta 宣布其一个人工智能模型在一次网络安全评估期间入侵了另一家公司。几家美国对冲基金也成为网络钓鱼攻击的目标，但目前尚不清楚谁是网络钓鱼攻击的目标。</p><p>这些事件的发生是为了应对更广泛的网络军备竞赛，前沿人工智能模型和快速发展的技术能力带来的固有风险加速了这场网络军备竞赛。例如，人们发现，人工智能网络钓鱼的效率比人类尝试的效率高出五倍左右。因此，虽然芯片和数据中心在人工智能资本支出的第一阶段占据主导地位，但网络安全可能会成为下一个支出热潮。</p><p>网络应急响应公司 Blackpanda 的 Gene Yu 表示，使人工智能识别黑客的能力与允许其利用“漏洞和差距”的能力相同。Blackpanda 的网络应急响应公司在 2026 年上半年亚太地区的事件响应量同比翻了一番。</p><p>人工智能并没有改变人工智能中的漏洞数量。余说，系统，而是发现这些漏洞的速度的“力量倍增器”。当“人工智能不受阻碍”时，它的有效性令人“震惊”。</p><p>这个问题可能会伴随着越来越高的价格标签。 Gartner 估计，到 2026 年，信息安全支出预计将增长 12.5%，达到 2400 亿美元。</p><p>自由资本市场技术研究主管 Paul Meeks 表示，公司将不得不在网络安全上投入更多资金。他预测这些支出将是“补充”当前的人工智能建设支出，而不是从中分配。他说，金融和医疗保健是两个可能需要大幅增加支出的行业，因为它们对全球经济的重要性也使它们成为网络攻击的诱人目标。</p><p>一个问题是需求是否流向纯粹的网络安全供应商或拥有自己技术堆栈的超大规模企业。</p><p>Meeks 认为像 Palo Alto 和 Crowdstrike 这样的网络安全纯企业将从这个支出周期中受益最多，因为超大规模企业将“需要一段时间来开发先进的东西”够了。”此外，第三方供应商在防止违规方面往往更加成熟，他说。</p><p>“主要网络安全参与者将首先获得优势”，并且“网络安全服务是人工智能革命中最具弹性的部门之一。”不过，他认为超大规模企业也可以抓住这一支出热潮，因为它们“已经拥有结构性优势”，可以进行内部建设或“快速收购”。</p><p>未来的潜在解决方案包括监管和人工智能系统设计的改变。</p><p>如果政府没有“一些游戏规则，我们就会遇到麻烦”，米克斯说。</p><p>纽约大学名誉教授加里·马库斯表示，虽然大量资金已“投入到法学硕士”，必须进行新的研究来构建“更可控”的人工智能系统。他说，Rogue AI 已经到来，并且“没有很好的方法来控制它。”</p>",
     "link": "https://www.cnbc.com/2026/08/12/ai-agents-hacks-cybersecurity-spending-boom.html",
     "published": "2026-08-12T02:58:04+00:00",
-    "source": "CNBC Top News",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "id": "9bcbf19336dd",
-    "title": "电动汽车主导中国汽车市场：中国最新汽车销售数据的 5 个要点",
-    "content": "<div class=\"article-image\"><img src =“https://image.cnbcfm.com/api/v1/image/108291072-17761734872026-04-14t090502 z_1765770947_rc2sokaecd2n_rtrmadp_0_tesla-china.jpeg?v=1776173500&w=1920&h=1080\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>北京——在中国竞争激烈的汽车市场中，电动汽车日益占据主导地位，幸存者已经出现。</p><p>根据汽车之家的行业数据，以下是中国消费者最喜爱的品牌：</p><p>在截至 7 月的六个月内中国销售的 10 款最受欢迎的车型中，吉利的星源电动掀背车以近 197,500 辆的销量位居榜首。已售出单位。</p><p>价格？价格略低于 10 万元人民币（14,820 美元）。</p><p>吉利已成为比亚迪的有力竞争对手，按 2025 年中国整体销量计算，吉利汽车将排名第二。除了电动汽车（例如其高端品牌 Zeekr 销售的汽车）外，这家总部位于杭州的公司仍然销售汽油动力汽车。</p><p>该公司的 Model Y 受欢迎程度排名第二，拥有超过 180,000 辆电动汽车SUV 已售出。特斯拉汽车的售价更高，为26.35万元至31.35万元，但这并没有阻止其销量超越理想汽车的i6 SUV和小米的SU7轿车。</p><p>根据汽车之家2月至7月的数据，最畅销的10款汽车中有3款来自比亚迪。但最受欢迎的一款——价格适中的元UP SUV——仅以近 97,700 辆的销量排名第五。排在第六位的是比亚迪越野品牌 Ti 7，其次是海狮 06 SUV。</p><p>这家中国汽车巨头报告称，今年上半年其乘用车销量下降了 10% 以上。</p><p>这家德国汽车制造商是唯一进入前十名的传统外国汽车公司，其紧凑型汽油动力朗逸排名第九，挤在零跑汽车的 A10 电动 SUV 和零跑汽车的 A10 电动 SUV 之间。吉利的汽油动力博越L SUV。</p><p>根据中国乘用车协会周二发布的数据，新能源汽车（包括纯电动汽车和混合动力汽车）占 7 月份新乘用车销量的 65.1%，高于一年前的 54%。</p><p>但行业数据显示，截至 7 月份，该类别销量仍下降 12.5%，因为乘用车销量总体下跌 20.3%显示。</p>",
-    "link": "https://www.cnbc.com/2026/08/12/china-car-sales-data-byd-tesla-geely-vw.html",
-    "published": "2026-08-12T01:20:13+00:00",
     "source": "CNBC Top News",
     "categories": [
       "AI"
