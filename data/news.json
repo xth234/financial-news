@@ -1,5 +1,16 @@
 [
   {
+    "id": "aff845cc4946",
+    "title": "Google's Gemini becomes latest AI model to break out and hack computer systems",
+    "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108338205-1784672318255-gettyimages-2286486173-ALPHABET_EARNS.jpeg?v=1784672362&w=1920&h=1080\" style=\"max-width:100%;border-radius:8px;margin-bottom:1rem;\" /></div><p>Googlesaid on Friday that its Gemini model had hacked three other companies, the first time the search giant has disclosed that one of its models autonomously gained access to third-party computer systems without permission.</p><p>In May, the Gemini model accessed three separate private computer systems by guessing passwords and by twice using a repository of publicly listed passwords, Google said.</p><p>The incident happened as part of a \"capture-the-flag\" security test run by Israeli startup Irregular, and Google's agents were never supposed to access the broader internet, but a bug in the testing environment made internet access available.</p><p>The agents stopped their intrusion when they determined they had accessed real company systems, not just part of the testing environment, Google said.</p><p>\"In a standard evaluation, the model found public information online and guessed credentials to access websites it thought were part of the test,\" Heather Adkins, vice president of security engineering at Google, said in a statement. \"In all three of these instances, the model stopped.\"</p><p>The disclosure comes as scrutiny over misbehaving artificial intelligence intensifies in Washington and Silicon Valley.</p><p>OpenAI, Anthropic andMetahavein recent weeksreportedincidentswhere their AI models had broken out of their testing environments and attempted to hack other companies to gain unauthorized access to computer systems.</p><p>The disclosures of so-called \"misaligned\" AI models prompted Anthropic CEO Dario Amodei to call for the  industry tocollectivelyslow down the development of the most advanced AI models until companies can ensure they are safe.</p><p>All of the above incidents involved Israeli startup Irregular. The company, which is backed by Sequoia and Redpoint Ventures, was valuedlast yearat $450 million. Its tools help foundation model developers perform cybersecurity tests on their cutting-edge technologies.</p><p>An Irregular spokesperson told CNBC that the Google incident was related to the same issue that allowed the other models to access the internet.</p><p>\"This is the same issue that was already reported and does not represent a materially separate incident,\" an Irregular spokesperson said in a statement. \"All relevant labs were notified in late July, and affected entities were contacted as part of the investigation.\"</p><p>Google said the incident happened in May and it was notified by Irregular in late July. Google has worked with Irregular to change its testing process.</p><p>A Google spokesperson declined to identify the exact Gemini model involved.</p><p>\"These events highlight the importance of training powerful AI models to act responsibly,\" Google's Adkins said in a statement.</p><p>The Wall Street Journal firstreportedthe security incident.</p><p>CNBC's Jonathan Vanian contributed reporting.</p>",
+    "link": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html",
+    "published": "2026-09-19T01:41:49+00:00",
+    "source": "CNBC Top News",
+    "categories": [
+      "AI"
+    ]
+  },
+  {
     "id": "cd8c9743bf47",
     "title": "Cramer’s week ahead: What to watch as Wall Street navigates a tough September",
     "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/107109968-NUP_198430_00193r.jpg?v=1696632386&w=1920&h=1080\" style=\"max-width:100%;border-radius:8px;margin-bottom:1rem;\" /></div><p>CNBC'sJim Crameron Friday said investors could be in for a relatively quiet week, with only a handful of major earnings reports and corporate events on the calendar as Wall Street works its way through a historically difficult September.</p><p>\"Remember, September is the cruelest month,\" the \"Mad Money\" host said. \"It's been okay — not-great — so far. … Here's hoping we'll have a relatively sedate couple of weeks.\"</p><p>TheDow Jones Industrial Averagebore the brunt of theFederal Reserve's quarter-point interest rate hikeWednesday. The blue-chip index fell 1.7% for the week as policymakers signaled that additional tightening could be ahead. TheS&P 500dropped 0.1%. Meanwhile, the tech-heavyNasdaq Compositeheld up better, rising 0.7% as investors returned to the AI trade after an early-week sell-off.</p><p>Turning to the week ahead, Cramer said the most consequential corporate event comes Wednesday, when cybersecurity companyOktaholds its analyst meeting.</p><p>Cramer said Okta CEO Todd McKinnon impressed himduring an interviewthis week atSalesforce'sannual Dreamforce conference by explaining how Okta's identity-security technology can extend to AI agents. McKinnon argued that the company could identify individual agents and track their activity, potentially providing a way to stop malicious AI systems.</p><p>\"It got me thinking, how is it possible that we have all these real smart people at these AI companies, and they have us all worried about a practical cyber solution?\" Cramer said. \"Why don't they, like, talk to the cybersecurity guys?\"</p><p>Before that, homebuilderKB Homereports Tuesday. Cramer expects its results to reinforce the challenges facing the housing industry in a tightening interest-rate environment, similar to what investors heard fromLennarearlier last week.</p><p>Wednesday brings earnings from uniform rental providerCintasand payroll companyPaychex, which have significant exposure to small and medium-sized businesses. Cramer said both head into their reports with momentum because that portion of the economy remains strong and has historically been able to withstand the onset of a monetary tightening cycle.</p><p>General Millsreports on Wednesday as well, but Cramer remains cautious on the packaged-food company. He pointed to higher input costs, the rise of GLP-1 weight-loss drugs and pressure on processed foods as challenges weighing on the business. \"I can't recommend it,\" he said.</p><p>Darden Restaurantsreports on Thursday, and Cramer said the Olive Garden parent can move higher on its strong execution. Still, he prefersBrinker International, arguing that Chili's owner offers stronger growth prospects.</p><p>Off-price retailerCostcocloses out the week when it reports after Thursday's bell. Cramer said the stock has beenstrugglingand he will be listening for signs of whether the retailer is having difficulty retaining younger members. Cramer'sCharitable Trust, the portfolio run by CNBC's Investing Club, owns shares of Costco.</p><p>Click here to readJim Cramer's Guide to Investingat no cost to help you build long-term wealth and invest smarter</p><p>Sign up nowfor the CNBC Investing Club to follow Jim Cramer's every move in the market.</p><p>Questions for Cramer?Call Cramer: 1-800-743-CNBC</p><p>Want to take a deep dive into Cramer's world? Hit him up!Mad Money Twitter-Jim Cramer Twitter-Facebook-Instagram</p><p>Questions, comments, suggestions for the \"Mad Money\" website? madcap@cnbc.com</p>",
@@ -9435,50 +9446,6 @@
     "source": "CNBC Top News",
     "categories": [
       "区块链"
-    ]
-  },
-  {
-    "id": "99c97abe153a",
-    "title": "现代汽车的新旗舰车型是大型豪华Genesis EV",
-    "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108351491-1787144479430-Photo_4_GV90_Exterior.jpg?v=1787166148&w=1920&h=1080\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>旧金山 — 现代汽车最新的豪华旗舰车是一款名为 Genesis GV90 的全电动大型 SUV。</p><p>随着现代汽车在国内销量的不断增长，这款最多可容纳七座的电动汽车为 Genesis 带来了新的设计方向，并将该豪华品牌在美国的产品阵容扩大到七辆。</p><p>Genesis GV90 是该品牌自进入市场以来提供的最大车型十年前，它就进入了美国市场。预计它将在大型 SUV 领域与凯迪拉克 Vistiq 和 Escalade IQ、梅赛德斯-奔驰 EQS SUV 和 RivianR1S 展开竞争。</p><p>“今天标志着 Genesis 和豪华出行未来的里程碑式到来，”现代汽车首席执行官何塞·穆尼奥斯 (José Muñoz) 在一份声明中表示。 “GV90 为 Genesis 开启了新篇章，建立在我们大胆创新、提升客户体验和坚定不移地追求卓越的记录之上。”</p><p>GV90 将在现代汽车位于韩国蔚山的新工厂生产。预计明年初在美国上市。该公司表示，该车是其在美国推出的第四款电动汽车，其定价将在临近上市时公布。</p><p>Genesis 拒绝透露 GV90 是否也可以作为混合动力或汽油动力汽车提供，而该公司已经在 GV70 SUV 和 G80 轿车等其他品牌上做到了这一点。随着特朗普政府终止提供高达 7,500 美元的购买电动汽车的支持，美国的电动汽车销售在过去一年中有所放缓。</p><p>该车辆将有两种型号：GV90 Neolun（包括从车辆中间打开的车厢门）或带有传统平开门的标准 GV90 装饰。带有特殊徽章、羊毛羊绒和其他毛绒材料的“第一版”车辆也将上市。</p><p>车厢门（也称为自杀门）在汽车行业并不常见。它们使进出变得更加容易，但更难以设计以满足安全标准，而 Genesis 表示已经做到了这一点。</p><p>“尽管没有[中]柱，但 GV90 Neolun 的安全性仍然至关重要。Genesis 设计了一种新结构，将车门与车身无缝结合，同时保持最高的安全标准。”该公司表示。</p><p>该汽车制造商表示，GV90 采用了全新的高性能电动马达系统，能够达到490 千瓦（约 660 马力）和 800 牛顿米（590 英尺磅）扭矩。据该公司称，该车的预计电动续航里程约为 310 英里。</p><p>该设计采用了车宽双灯，在中心的一个点相交，此前该品牌曾将其作为 2024 年的概念车进行预览。</p><p>Genesis 今年前 6 个月的美国销量比去年同期增长约 5%，达到 39,088 辆。该品牌已连续 22 个月实现销售额同比增长。</p>",
-    "link": "https://www.cnbc.com/2026/08/19/hyundai-luxury-genesis-ev.html",
-    "published": "2026-08-20T03:00:02+00:00",
-    "source": "CNBC Top News",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "id": "2e4bd34a95c9",
-    "title": "中国正在顶住全球债券收益率飙升的压力，增强其多元化吸引力",
-    "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108351296-1787104608957-gettyimages-2290361698-cfoto-chinesey260817_npHaO.jpeg?v=1787104839&w=1920&h=1080\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>北京——策略师表示，中国政府债券可以在投资组合多元化方面发挥重要作用，因为它们的表现可能会继续与其他国家的债务不同。</p><p>近几个月来，尽管美国、日本和英国的基准利率飙升至数十年来的高点，但中国的收益率却在近几个月小幅下降。这反映了世界第二大经济体仍然与全球资本市场隔绝，并面临通货紧缩环境，与其他地方的通胀担忧形成鲜明对比。</p><p>“我们认为，在风险调整后的基础上，中国债券有超越发达市场同行的空间，支持性宏观政策和强劲的出口增长有助于支持对中央政府债券的需求，”景顺亚太区固定收益投资组合管理主管诺伯特·林(Norbert Ling)表示。 “广发银行仍然提供正的实际收益率，具有防御性特征，在全球债券投资组合中发挥着重要作用。”</p><p>中国一直在应对严重的房地产市场低迷和通货紧缩，这使得中国人民银行保持宽松。该国周一公布的 7 月份零售销售和工业生产增长令人失望的数据，引发了人们对进一步降息和刺激措施的希望。这可能会使其债券走上与其他主要市场不同的道路。</p><p>“中国最新的 7 月份宏观经济活动数据弱于市场预期，表明国内需求可能需要更长的时间才能恢复，”瑞银长城首席投资办公室亚洲资产配置主管吴春来表示。吴补充说，“我们预计中国人民银行将通过流动性操作和有针对性的信贷措施继续提供支持”</p><p>中国政府债券为全球和亚洲投资者提供“战略性多资产投资组合中的宝贵多元化收益”。</p><p>盛宝银行首席投资策略师查鲁·查纳纳(Charu Chanana)对此表示同意。欧洲央行和日本央行等其他主要央行一直在加息。</p><p>“对于全球投资组合而言，国债仍然可以发挥多元化作用，因为中国的利率周期与美国、欧洲和日本越来越不同，”她在一封电子邮件中表示。</p>",
-    "link": "https://www.cnbc.com/2026/08/20/china-defies-global-bond-yield-surge-safe-haven.html",
-    "published": "2026-08-20T02:39:14+00:00",
-    "source": "CNBC Top News",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "id": "58575e9562ff",
-    "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
-    "content": "<div class=\"article-image\"><img src=\"https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/725b/live/5ef21940-9c2a-11f1-aa8e-d328e95deb46.jpg\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>图片来源，Getty Images作者：Grace Eliza Goodwin 和 Peter Hoskins 发布时间：2026 年 8 月 20 日，英国夏令时间 01:25 更新时间：54 分钟前 唐纳德·特朗普总统表示，美国将对任何帮助伊朗或与伊朗做生意的国家造成“巨大的经济后果”。他在 Truth Social 上用大写字母写道，他正在发起“有史以来针对任何国家采取的最具毁灭性的经济行动！”他没有透露更多细节，也没有点名任何其他国家。这是在与伊朗的60天停火周一到期之后，没有迹象表明美国和以色列在2月底开始的冲突有外交或军事缓和。特朗普的最新举动似乎是延长了4月份发起的经济愤怒行动的施压行动，该行动旨在制裁与德黑兰有业务往来的外国银行或公司。在周三晚间的社交媒体帖子中，特朗普表示，他将在2017年发起“经济诺曼底登陆日”伊朗，因为伊斯兰共和国未能与美国达成协议。特朗普表示，“任何允许其金融机构、企业、机场或政府实体向伊朗提供任何类型生命线的国家，本身都将面临巨大的经济后果。”他没有具体说明国家可能面临哪些惩罚。特朗普继续说道：“石油走私、互换额度、现金转移、交易所、船舶登记、幌子公司——这一切都需要立即停止。你知道你是谁。”就在第二天，美国的盟友阿拉伯联合酋长国宣布，在伊朗面临新的导弹威胁后，将切断与伊朗的所有金融和经济联系。阿联酋国防部表示，已检测到两枚从伊朗发射的针对海上交通的弹道导弹，两枚弹道导弹均落入海中。伊朗实体长期以来一直利用迪拜的金融系统，通过交易所和空壳公司转移资金。在阿联酋做出决定后，伊朗武装部队警告邻近的海湾国家不要向美国军方提供支持，称向美军提供的任何援助都将被视为勾结。虽然帖子中没有点名中国，但那里的企业是伊朗石油的最大买家，而伊朗是德黑兰资金的主要来源。自战争爆发以来，华盛顿已经制裁了几家所谓的“茶壶炼油厂”——私营石油加工厂，主要位于中国东部的山东省。英国广播公司已联系中国驻华盛顿大使馆征求评论。上周，财政部长斯科特·贝森特表示，美国很快将实施经济制裁“世界上从未见过”对伊朗的孤立。四月，美国财政部和五角大楼宣布了“经济愤怒行动”。其目的是通过制裁和阻止外国国际实体与伊朗开展业务来切断伊朗的收入来源。它还包括海上封锁，以阻止伊斯兰共和国的出口。英国广播公司已要求白宫和美国财政部发表评论。本周早些时候，据报道，特朗普在接受福克斯新闻记者的电话采访时还威胁说，如果美国盟友阿曼“妨碍”他的政府与伊朗的谈判，他将轰炸阿曼。美国和阿曼一直在分别与德黑兰进行谈判，以重新开放霍尔木兹海峡，这条水道对伊朗来说至关重要。这场冲突严重扰乱了霍尔木兹海峡关键航线的交通，推高了全球能源价格。世界上约 20% 的原油和液化天然气 (LNG) 通常经过该海峡。在 11 月美国中期选举之前，特朗普面临着战争给美国消费者造成多大损失的压力。相关话题伊朗唐纳德·特朗普伊朗战争美国中东更多报道随着美国暂停与伊朗的战争，特朗普真的没有武器了吗？ 7月27日发布特朗普戏剧性的飞机交换暗示伊朗战争的个人利害关系8月12日发布</p>",
-    "link": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
-    "published": "2026-08-20T02:16:49+00:00",
-    "source": "BBC Business",
-    "categories": [
-      "地缘"
-    ]
-  },
-  {
-    "id": "b86ba7efe839",
-    "title": "日本 7 月份出口超出预期，强劲的芯片出货量推动连续第五个月增长",
-    "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108019082-1723463960946-gettyimages-1388181678-japaneseflagoncpu.jpeg?v=1731479400&w=1920&h=1080\"样式=“最大宽度：100％；边框半径：8px；边距底部：1rem；” /></div><p>7 月份半导体出货量继续为日本出口提供动力，实现 2022 年 10 月以来的最快增长，超出预期。</p><p>出口增长连续第五个月加速，达到 23.2%。路透社调查的经济学家预计增长率为 19.9%。</p><p>半导体设备的出货量大幅增长 49.1%，反映出人工智能繁荣推动的持续需求。</p><p>在目的地方面，对日本最大贸易伙伴中国的出货量增长了 25.8%，对美国的出口增长了 22%。</p><p>尽管出口额有所增长，但涨幅主要是由于日元疲软和销售价格上涨，7 月份成交量仅上涨 5.2%。数据公布后，基准日经 225 指数上涨 0.64%，而兑美元汇率下跌 0.11%，至 158.35。</p><p>过去几个月强劲的出口对支撑日本 GDP 发挥了重要作用。第二季度经济同比增长 0.7%，而今年前三个月为 0.5%。</p><p>虽然 GDP 环比和年化均未达预期，但出口帮助缓解了影响，该行业是经济增长的最大贡献者。</p><p>7 月份日本进口增长 27.8%，为 2022 年 11 月以来的最高水平，也超过了预期分析师预计将上涨 26.5%。由于伊朗战争，随着油价上涨，该国石油进口额猛增 87.8%。</p><p>根据国际能源署的数据，日本超过 87% 的能源需求通过进口满足。</p>",
-    "link": "https://www.cnbc.com/2026/08/20/japan-exports-imports-july-chip-ai.html",
-    "published": "2026-08-20T00:30:32+00:00",
-    "source": "CNBC Top News",
-    "categories": [
-      "AI"
     ]
   }
 ]
