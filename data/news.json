@@ -8182,27 +8182,5 @@
     "categories": [
       "AI"
     ]
-  },
-  {
-    "id": "d2a6386249b8",
-    "title": "JPMorgan oil team gives up on forecasting Iran war endgame as Trump blows past economic redlines",
-    "content": "JPMorgan assumed at the start of the war that several economic redlines would force President Donald Trump into an agreement to open the Strait of Hormuz.",
-    "link": "https://www.cnbc.com/2026/09/17/jpmorgan-gives-up-forecasting-iran-wars-end-as-trump-blows-past-economic-redlines-.html",
-    "published": "2026-09-17T22:31:48+00:00",
-    "source": "CNBC Top News",
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "id": "fa436f01659f",
-    "title": "Anthropic shares 3 metrics to help AI companies monitor pace of development",
-    "content": "<div class=\"article-image\"><img src=\"https://image.cnbcfm.com/api/v1/image/108342837-1785448087702-gettyimages-2256654494-DAVOS_WEF_2026.jpeg?v=1785448353&w=1920&h=1080\" style=\"max-width:100%;border-radius:8px;margin-bottom:1rem;\" /></div><p>Anthropicis sharing three new metrics that it says could helpartificial intelligencecompanies monitor the pace of development, days after CEO Dario Amodei rocked the industry by calling for a coordinated slowdown.</p><p>In ablog poston Thursday, the company said it measured AI-led research and development, oversight of AI agents and compute allocation within Anthropic, and it shared the methodologies to encourage other organizations to do the same. The metrics build on the three-step slowdown plan that Amodei published on Saturday, which was light on specifics about what a practical implementation would include.</p><p>\"As the world considers pacing the frontier, we should do everything possible to minimize the gap between what frontier labs know and what the public knows,\" Anthropic said in Thursday's post. \"This means better measuring the development of AI, reporting on it publicly, and giving society an opportunity to decide how to use this information.\"</p><p>Amodei's call for a slowdown over the weekend received support from industry leaders includingOpenAICEOSam Altman,SpaceXCEOElon MuskandGoogleDeepMind Chair Demis Hassabis, and it followed stark warnings from researchers about AI's growing potential to cause harm. Amodei said his plan aims to temper how quickly model capabilities improve without \"sacrificing commercial advantage or the United States' lead in AI.\"</p><p>For its first metric, Anthropic said it determined its Claude models are \"not operating fully autonomously\" for any subset of the research and development work that it measured.</p><p>The second metric involved building a system to oversee and intervene in actions taken by AI agents. It determined that approximately 30,000 agents were doing research and engineering work across its most-used internal platform at any one time.</p><p>For its third metric, Anthropic measured a \"snapshot\" of how it used all of its compute from July 13 to July 20. The company said it found that roughly 6% of the compute that went to AI research and development was allocated toward safety. Roughly 12% of the compute allocated to \"AI-driven\" research and development went toward safety, the company said.</p><p>Anthropic said these metrics are best equipped to help showcase how models are built, and that they should complement capability evaluations, which showcase \"what models can do.\" Taken together, Anthropic said third parties outside the lab should have a \"starting point\" to assess the pace of AI development.</p><p>\"We hope to model that transparency by releasing these measurements, and we'll continue to do so,\" Anthropic said.</p><p>WATCH:Why AI labs are calling for a slowdown</p>",
-    "link": "https://www.cnbc.com/2026/09/17/anthropic-shares-3-metrics-to-help-ai-companies-monitor-development.html",
-    "published": "2026-09-17T22:22:53+00:00",
-    "source": "CNBC Top News",
-    "categories": [
-      "AI"
-    ]
   }
 ]
